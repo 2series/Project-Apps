@@ -5,7 +5,7 @@
 ## To-do List app
 
 ### Running the project
-1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
+1. Ensure that you are in the project home directory. Create the machine learning model by running the below command -
 ```
 python3 main.py
 ```
