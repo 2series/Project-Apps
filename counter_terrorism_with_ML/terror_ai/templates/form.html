@@ -1,0 +1,116 @@
+﻿<html lang="en">
+<head>
+	<title>Predict Terrorist Attack Prone Regions</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../static/form-static/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/css/main.css">
+</head>
+<body>
+	<div class="row"></div>
+	<div class="contact1">
+		<center>
+		<form style="color:white" class="contact1-form validate-form" action="/uploader" method="POST" enctype="multipart/form-data">
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Month</h3>
+				<select name="monthnumber">
+					<option value="1">January</option>
+					<option value="2">February</option>
+					<option value="3">March</option>
+					<option value="4">April</option>
+					<option value="5">May</option>
+					<option value="6">June</option>
+					<option value="7">July</option>
+					<option value="8">August</option>
+					<option value="9">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+				</select>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Country Name</h3>
+				<select name="countryname">
+					<option value="78">India</option>
+					<option value="131">Pakistan</option>
+					<option value="186">USA</option>
+					<option value="163">Spain</option>
+					<option value="58">France</option>
+					<option value="33">Columbia</option>
+					<option value="185">UK</option>
+					<option value="180">Turkey</option>
+					<option value="137">Philippines</option>
+					<option value="176">Thailand</option>
+					<option value="0">Afganistan</option>
+					<option value="82">Iraq</option>
+					<option value="128">Nigeria</option>
+				</select>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Region Name</h3>
+				<select name="regionname">
+					<option value="6">North America</option>
+					<option value="7">South America</option>
+					<option value="8">South Asia</option>
+					<option value="3">East Asia</option>
+					<option value="2">Central Asia</option>
+					<option value="9">Southeast Asia</option>
+					<option value="4">Eastern Europe</option>
+					<option value="11">Western Europe</option>
+					<option value="0">Australia & Oceania</option>
+				</select>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Demographic</h3>
+				<select name="targetname">
+					<option value="15037">Civilians</option>
+					<option value="61386">Vehicle</option>
+					<option value="34315">Market</option>
+					<option value="39201">Govt. Officers</option>
+					<option value="61046">Unkown</option>
+				</select>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Number-Of-Casualty</h3>
+				<select name="ncasualty">
+					<option value="10"> <10 </option>
+					<option value="50"> <100 </option>
+					<option value="100"> >100 </option>
+				</select>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="">
+				<h3>Select Algorithm Of Your Choice</h3>
+				<select name="algo">
+					<option value="1"> Decision Tree</option>
+					<option value="2"> Logistic Regression </option>
+				</select>
+			</div>
+			<div class="container-contact1-form-btn">
+				<button class="contact1-form-btn">
+					<span>Predict<i class="" aria-hidden="true"></i></span>
+				</button>
+				<a href="/" class="contact1-form-btn">Home</a>
+			</div>
+		</form>
+	</center>
+	</div>
+</body>
+</html>
+
+    <script src="../static/form-static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../static/form-static/vendor/bootstrap/js/popper.js"></script>
+    <script src="../static/form-static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/form-static/vendor/select2/select2.min.js"></script>
+    <script src="../static/form-static/vendor/tilt/tilt.jquery.min.js"></script>
+    <script >
+	    $('.js-tilt').tilt({
+		    scale: 1.1
+	    })
+    </script>
+    <script src="..static/form-static/js/main.js"></script>
