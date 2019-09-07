@@ -1,0 +1,12 @@
+name: income_growth_App
+title: income_growth_App
+username:
+account: r-variawa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 835690
+bundleId: 1983973
+url: https://r-variawa.shinyapps.io/income_growth_App/
+when: 1554296203.27453
+asMultiple: FALSE
+asStatic: FALSE
