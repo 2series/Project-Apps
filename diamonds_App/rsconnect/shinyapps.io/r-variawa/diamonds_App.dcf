@@ -1,0 +1,12 @@
+name: diamonds_App
+title: diamonds_App
+username:
+account: r-variawa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 835643
+bundleId: 1983898
+url: https://r-variawa.shinyapps.io/diamonds_App/
+when: 1554294005.75623
+asMultiple: FALSE
+asStatic: FALSE
