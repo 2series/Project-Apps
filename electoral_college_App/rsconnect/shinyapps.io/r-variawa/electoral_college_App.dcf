@@ -1,0 +1,12 @@
+name: electoral_college_App
+title: electoral_college_App
+username:
+account: r-variawa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 835700
+bundleId: 1983983
+url: https://r-variawa.shinyapps.io/electoral_college_App/
+when: 1554296418.41406
+asMultiple: FALSE
+asStatic: FALSE
