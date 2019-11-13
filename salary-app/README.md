@@ -3,7 +3,7 @@
 ![](https://media.giphy.com/media/1APe4RPkG7GPbfgk3d/giphy.gif)
 
 ## Machine Learning - Model-Flask-Deployment
-This is a project to elaborate how Machine Learning Model is deployed on production using Flask API
+This is a project to elaborate how a machine learning model is deployed in production using Flask API
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Learning Model) and Flask (for API) installed.
