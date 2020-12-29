@@ -34,7 +34,7 @@ Terrorism Dataset that has been preprocessed.
 
 --> To download the project from github - open a terminal and run the following command:
 ```
-    $ git clone https://github.com/nityansuman/counter-terrorism-using-machine-Learning.git
+    $ git clone https://github.com/2series/Project-Apps/tree/master/counter_terrorism_with_ML
 ```
 --> Now navigate to the root folder of the project from the same termianl:
 ```
