@@ -2,4 +2,4 @@ flask>=0.12.3
 numpy==0.10
 pandas==0.20
 sklearn==0.23
-NLTK==3.3
+NLTK==3.4.5
